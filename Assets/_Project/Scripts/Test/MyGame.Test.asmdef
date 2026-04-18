@@ -1,0 +1,21 @@
+{
+    "name": "MyGame.Test",
+    "rootNamespace": "MyGame.Test",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "MyGame.Core",
+        "MyGame.UI",
+        "MyGame.Gameplay",
+        "MyGame.Input"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
