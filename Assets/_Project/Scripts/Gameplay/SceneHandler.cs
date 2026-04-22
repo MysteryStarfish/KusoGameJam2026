@@ -9,6 +9,7 @@ namespace MyGame.Gameplay
         [SerializeField] string shopSceneName;
         [SerializeField] string workSceneName;
         [SerializeField] string bossSceneName;
+        [SerializeField] string foodEndSceneName;
         
         public static SceneHandler Instance;
 
@@ -48,6 +49,10 @@ namespace MyGame.Gameplay
         {
             LoadScene(bossSceneName);
         }
-        
+
+        public void LoadFoodEndScene()
+        {
+            LoadScene(foodEndSceneName);
+        }
     }
 }

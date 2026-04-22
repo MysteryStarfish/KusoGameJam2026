@@ -1,6 +1,11 @@
 {
-  "2cda990e2423bbf4892e6590ba056729": "Assets/Scenes/BossScene.unity",
+  "f0718632431251549ac090ee9bb8f0c8": "Assets/_Recovery/0 (1).unity",
+  "a35d42a39d4a9014da31d2a371478d8d": "Assets/_Recovery/0 (2).unity",
+  "120b2a408939a8d4ebf09ef17bf91243": "Assets/_Recovery/0 (3).unity",
+  "78ae0dee77468b64e9a9f37ac95f1e26": "Assets/_Recovery/0.unity",
+  "fff66c0b7b63568459115efa0bcf103a": "Assets/Scenes/FoodEndScene.unity",
   "903c79e948851f645b358083a2e5dfd4": "Assets/Scenes/MainScene.unity",
   "c452e1bb1a297fb408727ccc4c516b69": "Assets/Scenes/ShopScene.unity",
-  "47a8caaf575e9924d97f0986b3e53be9": "Assets/Scenes/WorkScene.unity"
+  "6e67a7385fe61f34e91cf68bcc7ce680": "Assets/Scenes/WorkScene.unity",
+  "47a8caaf575e9924d97f0986b3e53be9": "Assets/Scenes/WorkSceneDrop.unity"
 }

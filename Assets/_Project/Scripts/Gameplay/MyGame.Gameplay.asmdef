@@ -6,7 +6,8 @@
         "MyGame.UI",
         "Unity.TextMeshPro",
         "MyGame.Input",
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "DOTween.Modules"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

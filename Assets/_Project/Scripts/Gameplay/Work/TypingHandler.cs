@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.InputSystem;
 
 namespace MyGame.Gameplay
 {
@@ -16,30 +15,31 @@ namespace MyGame.Gameplay
         }
 
         private Color[] StateColor = {
-            Color.black, Color.mediumSpringGreen, Color.orangeRed
+            Color.white, Color.mediumSpringGreen, Color.orangeRed
         };
-        
+        [SerializeField] GameObject wordPrefab;
         List<TextMeshProUGUI> _texts;
         private RandomWordGenerator _wordGenerator;
         private State[] _correct;
         private int _index;
-        private int _len;
 
         private String _ans;
-        void Awake()
+        public bool IsFinished => _index >= _ans.Length;
+
+        public void Init(int len, int stage)
         {
+            for (int i = 0; i < len; i++) Instantiate(wordPrefab, transform);
             _wordGenerator = new RandomWordGenerator();
             _texts = new List<TextMeshProUGUI>(GetComponentsInChildren<TextMeshProUGUI>());
-            _len = _texts.Count;
             _correct = new State[_texts.Count];
-            GenerateWord();
+            GenerateWord(len, stage);
         }
-
-        private void GenerateWord()
+        public void GenerateWord(int lenght, int stage)
         {
+            Debug.Log($"Generating word {lenght} at {stage}");
             _index = 0;
-            _ans = _wordGenerator.generateWord(_len);
-            for (int i = 0; i < _len; i++)
+            _ans = _wordGenerator.generateWord(lenght, stage);
+            for (int i = 0; i < lenght; i++)
             {
                 _correct[i] = State.None;
                 _texts[i].text = _ans[i].ToString();
@@ -48,7 +48,7 @@ namespace MyGame.Gameplay
         }
         private void Visual()
         {
-            for (int i = 0; i < _len; i++)
+            for (int i = 0; i < _texts.Count; i++)
             {
                 _texts[i].color = StateColor[(int)_correct[i]];
             }
@@ -57,25 +57,16 @@ namespace MyGame.Gameplay
         {
             _texts[index].color = StateColor[(int)_correct[index]];
         }
-        
-        void OnEnable()
-        {
-            Keyboard.current.onTextInput += OnTyped;
-        }
 
-        void OnDisable()
+        public bool CheckIsNotMissed(char key)
         {
-            Keyboard.current.onTextInput -= OnTyped;
-        }
-
-        void OnTyped(char key)
-        {
-            if (!(key is >= 'a' and <= 'z')) return;
-            _correct[_index] = _ans[_index] == key ? State.Correct : State.Incorrect;
+            if (!(key is >= 'a' and <= 'z')) return true;
+            var res = _ans[_index] == key;
+            _correct[_index] = res ? State.Correct : State.Incorrect;
             Visual(_index);
             _index++;
-            if (!(_index >= _ans.Length)) return;
-            GenerateWord();
+            return res;
         }
+
     }
 }

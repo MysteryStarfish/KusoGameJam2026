@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a5d2c618267494fbc7fcf69e708609, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: MyGame.Gameplay::MyGame.Gameplay.PlayerData
+  money: 0
+  day: 0
+  barcodeLenght: 13
+  barcodeStage: 0
+  efficientLevel: 1
+  maxHp: 3
+  currentHp: 0
+  collectCapacity: 12
+  Collect: 
+  Bin: 
