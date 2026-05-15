@@ -1,0 +1,762 @@
+fileFormatVersion: 2
+guid: eb8b4c1515aeaa64aa9ed57c27629327
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6472489339197462242
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_0
+  - first:
+      213: 8767085981891276188
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_1
+  - first:
+      213: 8625447138337511370
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_2
+  - first:
+      213: 1971500857190680397
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_3
+  - first:
+      213: 4197232480800664885
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_4
+  - first:
+      213: -2099260710438676578
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_5
+  - first:
+      213: -2565142347187166526
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_6
+  - first:
+      213: 6905968411390181932
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_7
+  - first:
+      213: 6032781041084015608
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_8
+  - first:
+      213: -7024574835435134544
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_9
+  - first:
+      213: -3858620147644690187
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_10
+  - first:
+      213: 5631795369782266569
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_11
+  - first:
+      213: -7559983284989704209
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_12
+  - first:
+      213: -6877286840062930638
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_13
+  - first:
+      213: 4412890606961438845
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_14
+  - first:
+      213: -3641812764437825123
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_15
+  - first:
+      213: -3810336499116719413
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_16
+  - first:
+      213: 6810781762983377270
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_17
+  - first:
+      213: -7256820956187725858
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_18
+  - first:
+      213: -2961564228467239048
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_19
+  - first:
+      213: 2271639788630971114
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_20
+  - first:
+      213: -7198352171761898906
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_21
+  - first:
+      213: -6201618129577220205
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_22
+  - first:
+      213: 8721753785813519560
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_23
+  - first:
+      213: -2710456027168396969
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_24
+  - first:
+      213: -5736015989320666865
+    second: 2026gamejam_SSR_gold_3p_an-Sheet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf061009009e4d48aed28b8d921e876
+      internalID: 1927670957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 816
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99981314e5bc04c8552b30470ccf90
+      internalID: -1953457505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 816
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183a8a724afeaf94ea62384d5c2c40c5
+      internalID: -1271061702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 816
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c5d08497bff604f8a50691375b455f
+      internalID: -681637339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 816
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4726ddea70c39a44686efad7517b49ee
+      internalID: 338808856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a8222545c890141a43cb23cff805d7
+      internalID: -1958230180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 612
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8599c35454fcf4ba5f8f7506c443a7
+      internalID: 1893669992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 612
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8784f74e123eb2c40b15e5bc2541351f
+      internalID: 2029320707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 612
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b30fd5db9eb4e34e899d3ff8f7996e4
+      internalID: -1856895490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 612
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4876ca7fe21d3e42b3da5d161c50e49
+      internalID: 452348073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de029b5f571c4643aae1c1d08bec116
+      internalID: 2029123837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 408
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66384f3ec50285d4ebf54d34d1185059
+      internalID: 1489725689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 408
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d840c03f67089f64393ac4c7887a93aa
+      internalID: -2018363192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 408
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c94e8068065594abe2b35010611cce
+      internalID: 733298638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 408
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3e19e109a849349b5b5d25cc9056c8
+      internalID: -1781616109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fd6cdf8963ce64c8552bdc98c65a54
+      internalID: 1142257636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 204
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c02fc002c7fb6b4eb9e42e94708439b
+      internalID: -1083163104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 204
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06a71a77d7ef17479cd653ec2ac50b4
+      internalID: 1085017691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 204
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea11b9924cd254c85c67070b972db0
+      internalID: -445145184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 204
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a020e55108cb940a0a23fd727b7b9f
+      internalID: -1723826935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f3ccf47b26a854f90013a6a2ceec37
+      internalID: -414380352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7b257ebea2944bbc94ab5a42038eb
+      internalID: -2056597528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7010b0ef97e7b16428c9768eb39f4449
+      internalID: 2122809443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSR_gold_3p_an-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 0
+        width: 438
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3d86ca91060b48ac16e0628ffd6c8
+      internalID: -200055436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":438.0,"y":204.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SSR_gold_3p_an-Sheet_0: 1927670957
+      SSR_gold_3p_an-Sheet_1: -1953457505
+      SSR_gold_3p_an-Sheet_10: 2029123837
+      SSR_gold_3p_an-Sheet_11: 1489725689
+      SSR_gold_3p_an-Sheet_12: -2018363192
+      SSR_gold_3p_an-Sheet_13: 733298638
+      SSR_gold_3p_an-Sheet_14: -1781616109
+      SSR_gold_3p_an-Sheet_15: 1142257636
+      SSR_gold_3p_an-Sheet_16: -1083163104
+      SSR_gold_3p_an-Sheet_17: 1085017691
+      SSR_gold_3p_an-Sheet_18: -445145184
+      SSR_gold_3p_an-Sheet_19: -1723826935
+      SSR_gold_3p_an-Sheet_2: -1271061702
+      SSR_gold_3p_an-Sheet_20: -414380352
+      SSR_gold_3p_an-Sheet_21: -2056597528
+      SSR_gold_3p_an-Sheet_22: 2122809443
+      SSR_gold_3p_an-Sheet_23: -200055436
+      SSR_gold_3p_an-Sheet_3: -681637339
+      SSR_gold_3p_an-Sheet_4: 338808856
+      SSR_gold_3p_an-Sheet_5: -1958230180
+      SSR_gold_3p_an-Sheet_6: 1893669992
+      SSR_gold_3p_an-Sheet_7: 2029320707
+      SSR_gold_3p_an-Sheet_8: -1856895490
+      SSR_gold_3p_an-Sheet_9: 452348073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

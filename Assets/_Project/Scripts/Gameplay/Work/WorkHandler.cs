@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using MyGame.Core;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,7 @@ namespace MyGame.Gameplay
         [SerializeField] GlobalData _globalData;
         [SerializeField] AudioClip _correctEffect;
         [SerializeField] AudioClip _incorrectEffect;
+        [SerializeField] ExitClearButton _exitClearButton;
         
         [SerializeField] private TextManager textManager;
         
@@ -35,6 +37,13 @@ namespace MyGame.Gameplay
             isFirstType = true;
             if (_globalData.Day == 0) isTeach = true;
         }
+
+        public void ChangeScene()
+        {
+            _globalData.IncreaseDay();
+            SceneHandler.Instance.LoadMainScene();
+        }
+        
 
         private void Start()
         {
@@ -79,11 +88,13 @@ namespace MyGame.Gameplay
         {
             if (_globalData.Day == 0) return;
             Keyboard.current.onTextInput += OnTyped;
+            _exitClearButton.OnChangeSceneEvent += ChangeScene;
         }
 
         void OnDisable()
         {
             Keyboard.current.onTextInput -= OnTyped;
+            _exitClearButton.OnChangeSceneEvent -= ChangeScene;
         }
 
         void Update()
@@ -102,8 +113,15 @@ namespace MyGame.Gameplay
             if (_typingHandler.IsFinished) OnWordFinished();
             if (_playerData.IsDead) _countdownTimer.Stop();
         }
+
+        private bool IsValidKey(char key)
+        {
+            if (key <= 'z' && key >= 'a') return true;
+            return false;
+        }
         void OnTyped(char key)
         {
+            if (!IsValidKey(key)) return;
             if (isTeach)
             {
                 isTeach = false;

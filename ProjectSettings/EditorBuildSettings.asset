@@ -18,4 +18,4 @@ EditorBuildSettings:
     path: Assets/Scenes/FoodEndScene.unity
     guid: fff66c0b7b63568459115efa0bcf103a
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 1a8d0bc70a011ac4da99de023ad89e04, type: 3}

@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
+using MyGame.Input;
 using Random = UnityEngine.Random;
 
 namespace MyGame.Gameplay
@@ -11,11 +10,27 @@ namespace MyGame.Gameplay
     {
         [SerializeField] Typewriter _typewriter;
         [SerializeField] private List<String> contents;
+        [SerializeField] private InputReader _inputReader;
+        public bool IsTyping => _typewriter.IsTyping;
+        public bool IsDialog = false;
         private Queue<string> _dialogueQueue = new Queue<string>();
         private Action _onAllFinished;
         private bool _isWaitingForClick = false;
         private bool isTriggeredAllFinished;
 
+        private void OnEnable()
+        {
+            _inputReader.NextDialogEvent += OnTyped;
+        }
+        void OnDisable()
+        {
+            _inputReader.NextDialogEvent -= OnTyped;
+        }
+
+        void Awake()
+        {
+            IsDialog = false;
+        }
         public void SetTypewriter(Typewriter typewriter)
         {
             _typewriter = typewriter;
@@ -23,6 +38,7 @@ namespace MyGame.Gameplay
         // 外部呼叫這個方法，傳入一整串對話陣列
         public void StartDialogue(string[] dialogues, Action onAllFinished = null)
         {
+            IsDialog = true;
             _onAllFinished = onAllFinished;
             isTriggeredAllFinished = false;
             _dialogueQueue.Clear();
@@ -57,34 +73,19 @@ namespace MyGame.Gameplay
                 {
                     _onAllFinished?.Invoke();
                     isTriggeredAllFinished = true;
+                    IsDialog = false;
                 }
             }
         }
-        
-        void OnEnable()
+        private void OnTyped()
         {
-            Keyboard.current.onTextInput += OnTyped;
-        }
-
-        void OnDisable()
-        {
-            Keyboard.current.onTextInput -= OnTyped;
-        }
-        private void OnTyped(char key)
-        {
-            // 偵測玩家左鍵點擊 (或按下空白鍵)
-            if (key == 'b')
+            if (_typewriter.IsTyping)
             {
-                if (_typewriter.IsTyping)
-                {
-                    // 狀況A：字還在打，玩家想快轉 -> 跳到全滿
-                    _typewriter.SkipToFullText();
-                }
-                else if (_isWaitingForClick)
-                {
-                    // 狀況B：字已經打完，玩家點擊 -> 播下一句
-                    ShowNextSentence();
-                }
+                _typewriter.SkipToFullText();
+            }
+            else if (_isWaitingForClick)
+            {
+                ShowNextSentence();
             }
         }
 

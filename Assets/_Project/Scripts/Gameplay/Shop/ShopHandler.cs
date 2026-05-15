@@ -169,7 +169,7 @@ namespace MyGame.Gameplay
             {
                 SceneHandler.Instance.LoadFoodEndScene();
             }
-            _shopViewer.OffRollItem();
+            if (!_shopViewer.OffRollItem()) return;
             _playerData.Throw(currentRollId);
             if (_globalData.Day == 1)
             {

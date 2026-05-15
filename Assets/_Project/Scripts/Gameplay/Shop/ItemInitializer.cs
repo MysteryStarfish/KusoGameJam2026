@@ -13,7 +13,7 @@ namespace MyGame.Gameplay
         {
             spriteRenderer.sprite = item.Sprite;
             spriteRenderer.SetNativeSize();
-            rare.text = item.Rare;
+            if (rare) rare.text = item.RareText;
         }
     }
 }

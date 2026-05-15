@@ -2679,7 +2679,7 @@ GameObject:
   - component: {fileID: 892565449}
   - component: {fileID: 892565448}
   - component: {fileID: 892565451}
-  - component: {fileID: 892565452}
+  - component: {fileID: 892565453}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -2809,9 +2809,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 19a0bf21eb602a847884b8d9eafce520, type: 2}
-        m_TargetAssemblyTypeName: MyGame.Gameplay.GlobalData, MyGame.Gameplay
-        m_MethodName: IncreaseDay
+      - m_Target: {fileID: 1671655606}
+        m_TargetAssemblyTypeName: MyGame.Gameplay.WorkHandler, MyGame.Gameplay
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2821,7 +2821,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &892565452
+--- !u!114 &892565453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2830,9 +2830,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 892565446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4562678601a472146b6002c60554955d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d08e346d9612524d8b870d52926213e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: MyGame.Gameplay::MyGame.Gameplay.MainSceneButton
+  m_EditorClassIdentifier: MyGame.Gameplay::MyGame.Gameplay.ExitClearButton
+  inputReader: {fileID: 11400000, guid: 9b00942d46a22c44386a1f188ecc95f6, type: 2}
 --- !u!1 &894118794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,6 +3080,7 @@ GameObject:
   - component: {fileID: 1013604516}
   - component: {fileID: 1013604515}
   - component: {fileID: 1013604514}
+  - component: {fileID: 1013604518}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3171,6 +3173,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1013604518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013604513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates: []
 --- !u!114 &1065399820 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 704960595542319819, guid: 219c789f89b92d04aa534c1bcd6eefe8, type: 3}
@@ -5925,6 +5940,7 @@ MonoBehaviour:
   _globalData: {fileID: 11400000, guid: 19a0bf21eb602a847884b8d9eafce520, type: 2}
   _correctEffect: {fileID: 8300000, guid: 2268e14bd5ade0d4584cb1e9d74f945f, type: 3}
   _incorrectEffect: {fileID: 8300000, guid: da34f4e0da5c3f647a327a7e67363902, type: 3}
+  _exitClearButton: {fileID: 892565453}
   textManager: {fileID: 1911552358}
   _itemsDataHandler: {fileID: 11400000, guid: 3fde12c7fd9d3f94e827da3a2583d0a8, type: 2}
 --- !u!1 &1680988811
@@ -6150,6 +6166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: MyGame.Gameplay::MyGame.Gameplay.TextManager
   _typewriter: {fileID: 1754527246}
   contents: []
+  _inputReader: {fileID: 11400000, guid: 9b00942d46a22c44386a1f188ecc95f6, type: 2}
+  IsDialog: 0
 --- !u!4 &1911552359
 Transform:
   m_ObjectHideFlags: 0

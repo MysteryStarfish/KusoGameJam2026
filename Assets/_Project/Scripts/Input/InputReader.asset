@@ -11,4 +11,4 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 713e74bbc6eaeed4480d92a68a425596, type: 3}
   m_Name: InputReader
-  m_EditorClassIdentifier: MyGame.Input::Ronin.Input.InputReader
+  m_EditorClassIdentifier: MyGame.Input::MyGame.Input.InputReader

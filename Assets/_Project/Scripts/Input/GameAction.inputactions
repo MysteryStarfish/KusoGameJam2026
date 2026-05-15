@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "name": "GameAction",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "d9f7e2c8-8ff6-44fa-8471-2eb12d052bcf",
+            "actions": [
+                {
+                    "name": "Next Dialog",
+                    "type": "Button",
+                    "id": "16f3e509-d30f-40a8-ac90-d4253290fc16",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98472644-c46d-4f27-a324-b6f2b2b47640",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bbe27bb5-7f02-4537-9c11-83e6fe638d52",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d30d7af9-053a-4179-9f2e-eb7cc951bc72",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bb44210-4d5f-485d-b437-27f14d5e845a",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

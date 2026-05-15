@@ -9,7 +9,8 @@ namespace MyGame.Gameplay
         [SerializeField] private Sprite _sprite;
         public Sprite Sprite => _sprite;
         [SerializeField] private RareType _rare;
-        public String Rare => RareToChinese(_rare);
+        public String RareText => RareToChinese(_rare);
+        public String RareAnimation => RareToAnimationText(_rare);
         [SerializeField] private string _name;
         public String Name => _name;
         [SerializeField] private string _description;
@@ -32,11 +33,21 @@ namespace MyGame.Gameplay
         private string RareToChinese(RareType rare)
         {
             if (rare == RareType.SSR) return "SSR";
-            else if (rare == RareType.SSRp) return "SSR 十";
-            else if (rare == RareType.SSR2p) return "SSR 丼";
-            else if (rare == RareType.SSR3p) return "SSR 卉";
-            else if (rare == RareType.SSR4p) return "SSR 井";
-            else if (rare == RareType.SSRSpecial) return "SSR 十 二";
+             if (rare == RareType.SSRp) return "SSR 十";
+             if (rare == RareType.SSR2p) return "SSR 丼";
+             if (rare == RareType.SSR3p) return "SSR 卉";
+             if (rare == RareType.SSR4p) return "SSR 井";
+             if (rare == RareType.SSRSpecial) return "SSR 十 二";
+            throw new ArgumentException("Unknown RareType");
+        }
+        private string RareToAnimationText(RareType rare)
+        {
+            if (rare == RareType.SSR) return "SSR";
+             if (rare == RareType.SSRp) return "SSR_1P";
+             if (rare == RareType.SSR2p) return "SSR_SP";
+             if (rare == RareType.SSR3p) return "SSR_3P";
+             if (rare == RareType.SSR4p) return "SSR_4P";
+             if (rare == RareType.SSRSpecial) return "SSR_12";
             throw new ArgumentException("Unknown RareType");
         }
     }

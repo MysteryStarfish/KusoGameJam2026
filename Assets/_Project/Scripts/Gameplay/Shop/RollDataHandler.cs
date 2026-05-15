@@ -51,7 +51,7 @@ namespace MyGame.Gameplay
         
         public Item RollFood()
         {
-            return itemsHandler.GetRareItem(2);
+            return itemsHandler.GetRareItem(2 );
         }
     }
 }

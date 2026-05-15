@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 77700e0cfc5bd1a4f98bbb7cf3addb57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7389586502297833469
+    second: 2026gamejam_SSR_gold_12_an-Sheet_0
+  - first:
+      213: -916726741416115679
+    second: 2026gamejam_SSR_gold_12_an-Sheet_1
+  - first:
+      213: -9043416151445543930
+    second: 2026gamejam_SSR_gold_12_an-Sheet_2
+  - first:
+      213: 9046557601279978526
+    second: 2026gamejam_SSR_gold_12_an-Sheet_3
+  - first:
+      213: -2621029963630010983
+    second: 2026gamejam_SSR_gold_12_an-Sheet_4
+  - first:
+      213: 2357065603438117017
+    second: 2026gamejam_SSR_gold_12_an-Sheet_5
+  - first:
+      213: 6818948592653586836
+    second: 2026gamejam_SSR_gold_12_an-Sheet_6
+  - first:
+      213: 6328029448879396234
+    second: 2026gamejam_SSR_gold_12_an-Sheet_7
+  - first:
+      213: 9040279714370973392
+    second: 2026gamejam_SSR_gold_12_an-Sheet_8
+  - first:
+      213: -8018695267891032876
+    second: 2026gamejam_SSR_gold_12_an-Sheet_9
+  - first:
+      213: 7648702623371076038
+    second: 2026gamejam_SSR_gold_12_an-Sheet_10
+  - first:
+      213: 8627980551778441558
+    second: 2026gamejam_SSR_gold_12_an-Sheet_11
+  - first:
+      213: -5328372685656477561
+    second: 2026gamejam_SSR_gold_12_an-Sheet_12
+  - first:
+      213: -6297237473345061749
+    second: 2026gamejam_SSR_gold_12_an-Sheet_13
+  - first:
+      213: 7238126642788389407
+    second: 2026gamejam_SSR_gold_12_an-Sheet_14
+  - first:
+      213: -5515318495669067538
+    second: 2026gamejam_SSR_gold_12_an-Sheet_15
+  - first:
+      213: 3868728296242923152
+    second: 2026gamejam_SSR_gold_12_an-Sheet_16
+  - first:
+      213: -7774571439673033876
+    second: 2026gamejam_SSR_gold_12_an-Sheet_17
+  - first:
+      213: -7610029641499123090
+    second: 2026gamejam_SSR_gold_12_an-Sheet_18
+  - first:
+      213: -2447954080547020601
+    second: 2026gamejam_SSR_gold_12_an-Sheet_19
+  - first:
+      213: -8541008089400426649
+    second: 2026gamejam_SSR_gold_12_an-Sheet_20
+  - first:
+      213: 3173612502712921302
+    second: 2026gamejam_SSR_gold_12_an-Sheet_21
+  - first:
+      213: 510934312914036154
+    second: 2026gamejam_SSR_gold_12_an-Sheet_22
+  - first:
+      213: -7189768626184744408
+    second: 2026gamejam_SSR_gold_12_an-Sheet_23
+  - first:
+      213: -8768935728419615289
+    second: 2026gamejam_SSR_gold_12_an-Sheet_24
+  - first:
+      213: 9152545049524657880
+    second: 2026gamejam_SSR_gold_12_an-Sheet_25
+  - first:
+      213: 5993667421926303809
+    second: 2026gamejam_SSR_gold_12_an-Sheet_26
+  - first:
+      213: -7191426723093624253
+    second: 2026gamejam_SSR_gold_12_an-Sheet_27
+  - first:
+      213: -8957566887032479723
+    second: 2026gamejam_SSR_gold_12_an-Sheet_28
+  - first:
+      213: -4225890275017898821
+    second: 2026gamejam_SSR_gold_12_an-Sheet_29
+  - first:
+      213: 328553603785711105
+    second: 2026gamejam_SSR_gold_12_an-Sheet_30
+  - first:
+      213: 5268772558295150961
+    second: 2026gamejam_SSR_gold_12_an-Sheet_31
+  - first:
+      213: 8741716329603546340
+    second: 2026gamejam_SSR_gold_12_an-Sheet_32
+  - first:
+      213: 8629609392714243868
+    second: 2026gamejam_SSR_gold_12_an-Sheet_33
+  - first:
+      213: 4223763761970270249
+    second: 2026gamejam_SSR_gold_12_an-Sheet_34
+  - first:
+      213: 7008178423297974796
+    second: 2026gamejam_SSR_gold_12_an-Sheet_35
+  - first:
+      213: -5092897779658046697
+    second: 2026gamejam_SSR_gold_12_an-Sheet_36
+  - first:
+      213: -6523520330791277378
+    second: 2026gamejam_SSR_gold_12_an-Sheet_37
+  - first:
+      213: 5963163839523872107
+    second: 2026gamejam_SSR_gold_12_an-Sheet_38
+  - first:
+      213: -215539294637211653
+    second: 2026gamejam_SSR_gold_12_an-Sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffcb7aa5c51d8660800000000000000
+      internalID: 7389586502297833469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd085c4f5e7df6a43a8e878b0ca24587
+      internalID: -916726741416115679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffb346255d7a024da04653bcd3b1080
+      internalID: -9043416151445543930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262821b99f90b644b35e2366b33bf65
+      internalID: 9046557601279978526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5e8e7949cc2a478ee298fbbcbff85
+      internalID: -2621029963630010983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 816
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80f3d76569f81a489dcaf8be6d5af09
+      internalID: 2357065603438117017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84905403231d8c41af5dffc04162bd9
+      internalID: 6818948592653586836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ed1ea997302b40ba9a29ad5e6fedd
+      internalID: 6328029448879396234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9e76086d3e6b4ea4d0690cc70d7d6
+      internalID: 9040279714370973392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc44840a5174fb48a947ad79bee36fd
+      internalID: -8018695267891032876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b0a166ac0d5d40bf236bad498f345
+      internalID: 7648702623371076038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 612
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df669960596fbc247be1d383422c0a74
+      internalID: 8627980551778441558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae452e60dbac55439eea0223ade047e
+      internalID: -5328372685656477561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bea1ffd3d1c984390e982558cd0712
+      internalID: -6297237473345061749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c001b41b7fa674d844af1bf4bbf450
+      internalID: 7238126642788389407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be11210f6715d5489bbbaaecc665bec
+      internalID: -5515318495669067538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c49b651ab255444a679b95c4f45c24
+      internalID: 3868728296242923152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 408
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378455779ada36e43a4f25349ef58b73
+      internalID: -7774571439673033876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781c80a279cdd144982ea101f492e7ab
+      internalID: -7610029641499123090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5633f54d9b60464f9c140a582fbd46c
+      internalID: -2447954080547020601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3441ec2ae8f78c24faa0b1625cff7025
+      internalID: -8541008089400426649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ad4649056b034a9a66c639558e596
+      internalID: 3173612502712921302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e74e775dec5904a80b47c490aaecfa
+      internalID: 510934312914036154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 204
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd13515a93452a408ff322824bc7845
+      internalID: -7189768626184744408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a9ea1ba76c62b49b732f1e8c5f5939
+      internalID: -8768935728419615289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11da86b77a6a14b8b17cee7cf7097a
+      internalID: 9152545049524657880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2026gamejam_SSR_gold_12_an-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 390
+        height: 204
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b6c5a7748b05a4ca51b3eeb2e8a08c
+      internalID: 5993667421926303809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7bef6dc67c824a047b63b95094c66bd0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":5.0},"gridSpriteSize":{"x":390.0,"y":204.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":4,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      2026gamejam_SSR_gold_12_an-Sheet_0: 7389586502297833469
+      2026gamejam_SSR_gold_12_an-Sheet_1: -916726741416115679
+      2026gamejam_SSR_gold_12_an-Sheet_10: 7648702623371076038
+      2026gamejam_SSR_gold_12_an-Sheet_11: 8627980551778441558
+      2026gamejam_SSR_gold_12_an-Sheet_12: -5328372685656477561
+      2026gamejam_SSR_gold_12_an-Sheet_13: -6297237473345061749
+      2026gamejam_SSR_gold_12_an-Sheet_14: 7238126642788389407
+      2026gamejam_SSR_gold_12_an-Sheet_15: -5515318495669067538
+      2026gamejam_SSR_gold_12_an-Sheet_16: 3868728296242923152
+      2026gamejam_SSR_gold_12_an-Sheet_17: -7774571439673033876
+      2026gamejam_SSR_gold_12_an-Sheet_18: -7610029641499123090
+      2026gamejam_SSR_gold_12_an-Sheet_19: -2447954080547020601
+      2026gamejam_SSR_gold_12_an-Sheet_2: -9043416151445543930
+      2026gamejam_SSR_gold_12_an-Sheet_20: -8541008089400426649
+      2026gamejam_SSR_gold_12_an-Sheet_21: 3173612502712921302
+      2026gamejam_SSR_gold_12_an-Sheet_22: 510934312914036154
+      2026gamejam_SSR_gold_12_an-Sheet_23: -7189768626184744408
+      2026gamejam_SSR_gold_12_an-Sheet_24: -8768935728419615289
+      2026gamejam_SSR_gold_12_an-Sheet_25: 9152545049524657880
+      2026gamejam_SSR_gold_12_an-Sheet_26: 5993667421926303809
+      2026gamejam_SSR_gold_12_an-Sheet_3: 9046557601279978526
+      2026gamejam_SSR_gold_12_an-Sheet_4: -2621029963630010983
+      2026gamejam_SSR_gold_12_an-Sheet_5: 2357065603438117017
+      2026gamejam_SSR_gold_12_an-Sheet_6: 6818948592653586836
+      2026gamejam_SSR_gold_12_an-Sheet_7: 6328029448879396234
+      2026gamejam_SSR_gold_12_an-Sheet_8: 9040279714370973392
+      2026gamejam_SSR_gold_12_an-Sheet_9: -8018695267891032876
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
